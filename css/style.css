@@ -43,7 +43,7 @@ img {
 
 p {
     width: 100%;
-    font-size: 30px;
+    font-size: 3vw;
     color: yellow;
     text-align: center;
 }
@@ -52,3 +52,28 @@ p {
     color: green;
 }
 
+/* buttons */
+.buttons {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+li {
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    font-size: 12px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+/* end of buttons */
