@@ -29,6 +29,34 @@ img {
 }
 /* end of common  */
 
+/* navbar */
+.buttons {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+li {
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    font-size: 12px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+/* navbar */
+
+/* main  */
 .red {
     background-color: red;
 }
@@ -51,29 +79,4 @@ p {
 .yellow p {
     color: green;
 }
-
-/* buttons */
-.buttons {
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-li {
-    right: 10px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: white;
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
-    padding: 7px;
-    font-size: 12px;
-}
-
-li:hover {
-    cursor: pointer;
-}
-/* end of buttons */
+/* end of main  */
